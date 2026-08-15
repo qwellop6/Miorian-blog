@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<script src="https://cdn.jsdelivr.net/gh/qwellop6/MioRian-Component@main/BaseProps.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/qwellop6/MioRian-Component@main/Block.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/qwellop6/MioRian-Component@main/Input.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/qwellop6/MioRian-Component@main/Avatar.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/qwellop6/MioRian-Component@main/Social.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/qwellop6/MioRian-Component@main/Post.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/qwellop6/MioRian-Component@main/Heading.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/qwellop6/MioRian-Component@main/ArticleCard.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/qwellop6/MioRian-Component@main/BtnLink.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/qwellop6/MioRian-Component@main/Dropdown.js"></script>
+<body style="margin: 0;">
+    <miorian-block width="100vw" height="100vh" position="fixed" 
+    bg-image="https://uapis.cn/api/v1/random/image?category=acg&type=pc"
+    glass glass-blur="15px">
+        <miorian-block width="35%" height="65vh" self-x="center" self-y="center"
+        direction="col" align="center" justify="center" gap="3.5vh"
+        glow backcolor="#fff">
+            <miorian-block bg-image="./Miorian.svg" no-border shadowlevel="0"
+            width="35%" height="25%"></miorian-block>
+            <miorian-input width="100%" height="15%"
+            mode="input" placeholder="请输入用户名/邮箱" placeholder-text-align="center" text-align="center"></miorian-input>
+            <miorian-input width="100%" height="15%"
+            mode="input" placeholder="请输入密码" placeholder-text-align="center" text-align="center"></miorian-input>
+            <miorian-btnLink mode="link" href="#" self-x="end" offset-x="-0.75vw" offset-y="-1.5vh"
+            hover-color="#12cd47">忘记密码?</miorian-btnLink>
+            <miorian-btnLink mode="button" href="#"
+            hover="lift" border-width="2px">登录</miorian-btnLink>
+            <miorian-btnLink mode="link" href="#"
+            hover-color="#12cd47" font-size="13px">
+                <miorian-heading font-size="13px" font-weight="900" color="#111">没有账号？</miorian-heading>
+            立即注册</miorian-btnLink>
+        </miorian-block>
+    </miorian-block>
+</body>
+</html>

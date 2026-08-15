@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<script src="https://cdn.jsdelivr.net/gh/qwellop6/MioRian-Component@main/BaseProps.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/qwellop6/MioRian-Component@main/Block.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/qwellop6/MioRian-Component@main/Input.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/qwellop6/MioRian-Component@main/Avatar.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/qwellop6/MioRian-Component@main/Social.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/qwellop6/MioRian-Component@main/Post.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/qwellop6/MioRian-Component@main/Heading.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/qwellop6/MioRian-Component@main/ArticleCard.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/qwellop6/MioRian-Component@main/BtnLink.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/qwellop6/MioRian-Component@main/Dropdown.js"></script>
+<body>
+    <miorian-block width="100%" height="auto" direction="row" align="center" gap="5vw" shadowlevel="0" no-background no-border justify="center">
+        <miorian-block width="8%" height="auto" backcolor="#fff" direction="row" align="center" gap="3.5vw" shadowlevel="0" no-background no-border>
+            <miorian-dropdown open="down" open-time="0.25" arrow arrow-align="center" menu-align="center" width="auto" height="auto" shadowlevel="0">
+                <miorian-avatar src="" size="48px" border="wave" shadowlevel="0" no-background slot="trigger" bordercolor="#111"></miorian-avatar>
+                <miorian-btnlink mode="link" href="./LogIn.html" hover-color="#12cd47" no-background no-border font-size="15px" font-weight="800" color="#111" font-family="楷体">登入</miorian-btnlink>
+            </miorian-dropdown>
+        </miorian-block>
+        <miorian-block width="75%" height="auto" backcolor="#fff" direction="row" align="center" gap="3.5vw" justify="center">
+            <miorian-btnlink mode="link" href="#" hover-color="#12cd47" no-background no-border font-size="20px" font-weight="800" underline underline-color="#86efac" color="#111" font-family="楷体">首页</miorian-btnlink>
+            <miorian-btnlink mode="link" href="#" hover-color="#12cd47" no-background no-border font-size="20px" font-weight="800" underline underline-color="#86efac" color="#111" font-family="楷体">归档</miorian-btnlink>
+            <miorian-btnlink mode="link" href="#" hover-color="#12cd47" no-background no-border font-size="20px" font-weight="800" underline underline-color="#86efac" color="#111" font-family="楷体">作品</miorian-btnlink>
+            <miorian-btnlink mode="link" href="#" hover-color="#12cd47" no-background no-border font-size="20px" font-weight="800" underline underline-color="#86efac" color="#111" font-family="楷体">友链</miorian-btnlink>
+            <miorian-btnlink mode="link" href="#" hover-color="#12cd47" no-background no-border font-size="20px" font-weight="800" underline underline-color="#86efac" color="#111" font-family="楷体">评论</miorian-btnlink>
+            <miorian-btnlink mode="link" href="#" hover-color="#12cd47" no-background no-border font-size="20px" font-weight="800" underline underline-color="#86efac" color="#111" font-family="楷体">新番</miorian-btnlink>
+        </miorian-block>
+    </miorian-block>
+    <miorian-block width="100%" height="100vh" bg-image="https://uapis.cn/api/v1/random/image?category=acg&type=pc" bg-effect="snow" fx-size="lg" fx-density="dense" fx-angle="45" anim="bounce" glow glass glass-blur="6.5px" theme="light" direction="row" justify="center" align="center">
+        <miorian-block width="40vw" height="auto" no-background no-border
+        direction="col" align="center" gap="20px" shadowlevel="0">
+            <miorian-avatar src="https://yunapi.cn/api/sjecytx" 
+            size="lg" border="ring" rotate></miorian-avatar>
+            <miorian-block width="auto" height="auto" no-background direction="row" align="center" gap="20px" shadowlevel="0" no-border>
+                <miorian-social href="https://github.com/qwellop6" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" size="24px"></miorian-social>
+                <miorian-social href="https://qm.qq.com/q/v252rp4Z10" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/tencentqq.svg" size="24px"></miorian-social>
+                <miorian-social href="https://space.bilibili.com/3546620901722314" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/bilibili.svg" size="24px"></miorian-social>
+                <miorian-social href="https://music.163.com/#/user/home?id=534945633" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/neteasecloudmusic.svg" size="24px"></miorian-social>
+                <miorian-social href="mailto:2031913570@qq.com" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/maildotru.svg" size="24px"></miorian-social>
+            </miorian-block>
+            <miorian-input mode="display" api="https://v1.hitokoto.cn/?encode=text" typewriter typewriter-speed="80"
+            width="35vw" no-background no-border text-align="center" refresh="10"  font-family="华文仿宋" font-weight="900"></miorian-input>
+        </miorian-block>
+    </miorian-block>
+    <miorian-block height="100%" width="100%" direction="col" align="start" no-background no-border shadowlevel="0">
+        <miorian-heading font-size="21.25px" font-weight="900" underline underline-color="#12cd47" underline-thickness="5px" underline-radius="1px" gap="3vh" offset-x="3.25vh">最新发布：</miorian-heading>
+        <miorian-block height="100%" width="100%" direction="col" align="center" no-background no-border shadowlevel="0" gap="3vh">
+            <miorian-article-card title="测试" desc="泥嚎哇，这里是墨染 Hi~ o(*￣▽￣*)ブ。" cover="https://uapis.cn/api/v1/random/image?category=acg&type=pc" cover-radius="12px" title-align="center" desc-align="center" cover-align="right" gap="3vh" hover="lift" href="#" font-family="楷体"></miorian-article-card>
+        </miorian-block>
+    </miorian-block>
+    <miorian-block width="100%" height="auto" backcolor="#111" direction="col" align="center" gap="1.5vw" justify="center">
+        <miorian-heading font-size="10px" font-weight="900" color="#fff">关于本站</miorian-heading>
+        <miorian-heading font-size="10px" font-weight="900" color="#fff">© 2026 MioRian · Powered by MioRian Component</miorian-heading>
+    </miorian-block>
+</body>
+</html>
