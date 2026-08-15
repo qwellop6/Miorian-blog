@@ -1,6 +1,6 @@
 # MioRian Blog
 
-泥嚎哇，这里是墨染（MioRian）的个人技术博客。本项目完全基于自研的 **MioRian Component** （一个纯原生 Web Components ）组件库构建，喜欢的话可以麻烦点个嘛？谢谢了！。
+泥嚎哇，这里是墨染（MioRian）的个人技术博客。本项目完全基于自研的 **MioRian Component** （一个纯原生 Web Components ）组件库构建，喜欢的话可以麻烦点个Star嘛？谢谢了！。
 
 一款自研 **MioRian Component** 的 ACG（风格） 个人技术博客。
 
